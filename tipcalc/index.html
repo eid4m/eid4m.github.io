@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Splitter</title>
+  <link rel="stylesheet" href="./css/main.css">
+  
+  <!-- Font Google -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Boxicons -->
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <h1 class="title">SPLI <br> TTER</h1>
+
+    <div class="splitter grid-2">
+      <div class="splitter__left">
+        <!-- Bill -->
+        <div class="bill">
+          <label class="labels">Bill</label>
+          <input class="inputs" type="number" name="bill_number" id="bill_number" placeholder="0">
+        </div>
+
+        <!-- Select Tip %-->
+        <div class="percentage">
+          <span class="info" id="infoPercent">Select a Percentage</span>
+          <label class="labels">Select Tip %</label>
+
+          <div class="content">
+            <span class="percent perItem" data-per="5">5%</span>
+            <span class="percent perItem" data-per="10">10%</span>
+            <span class="percent perItem" data-per="15">15%</span>
+            <span class="percent perItem" data-per="25">25%</span>
+            <span class="percent perItem" data-per="50">50%</span>
+            <input type="text" class="percent percent--custom" id="number__custom" placeholder="Custom">
+          </div>
+        </div>
+
+        <!-- People -->
+        <div class="people">
+          <span class="info" id="infoPeople">Can't be zero</span>
+          <label class="labels">Number of People</label>
+          <input class="inputs" type="number" name="number__people" id="number__people" placeholder="0">
+          <img src="./img/iconUser.svg" alt="User icon" class="iconUser">
+        </div>
+      </div>
+
+      <div class="splitter__right">
+        <!-- Info Show-->
+        <div class="result">
+          <div class="amount">
+            <div class="amount__label">
+              <label class="labels--white">Tip Amount <br> <span>/ person</span></label>
+            </div>
+            <div class="amount__price">
+              <span class="price" id="priceAmount">$0.00</span>
+            </div>
+          </div>
+          <div class="total">
+            <div class="total__label">
+              <label class="labels--white">Total <br> <span>/ person</span></label>
+            </div>
+            <div class="total__price">
+              <span class="price" id="priceTotal">$0.00</span>
+            </div>
+          </div>
+
+          <input  class="btnPrimary" id="btnReset" type="reset" value="RESET" name="btnReset" id="btnReset">
+        </div>
+      </div>
+    </div>
+
+    <script src="./script/app.js"></script>
+</body>
+</html>
