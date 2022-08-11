@@ -10,8 +10,8 @@ Este es un challanges de frontend mentor que consiste en un pequeño código que
 
 ## Vistas
 
-![vista 1](public/img/tipcalculator-2.png)
-![vista 2](public/img/tipcalculator-1.png)
+![vista 1](img/tipcalculator-2.png)
+![vista 2](img/tipcalculator-1.png)
 
 ## Referencia
 
