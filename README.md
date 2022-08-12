@@ -1,6 +1,6 @@
-# Frontend Mentor - Tip Calculator 🧔
+# Tip Calculator Español
 
-Este es un challanges de frontend mentor que consiste en un pequeño código que calcule la factura por cliente y monto total. **Visita el link: [https://reverent-wright-ee1b61.netlify.app/](https://reverent-wright-ee1b61.netlify.app/)**
+Este es una calculadora de frontend mentor que consiste en un pequeño código que calcula la factura por cliente y monto total. **Visita el link: [https://eid4m.github.io/](https://eid4m.github.io/)**
 
 ## Tecnologias Usadas
 
