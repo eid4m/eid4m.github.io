@@ -17,4 +17,3 @@ Este es una calculadora de frontend mentor que consiste en un pequeño código q
 
 - [Challanges Tip Calculator](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX)
 - [Code Github](https://github.com/EstivenM99/tip-calculator-challanges)
-- [Website Tip Calculator](https://unruffled-elion-891358.netlify.app/)
